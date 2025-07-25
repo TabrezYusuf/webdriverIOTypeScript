@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Install and Run Tests
+    init: npm install
+    command: npm test
